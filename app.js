@@ -144,6 +144,7 @@ module.exports = function () {
             if (!respondedToAlexa) {
               respondedToAlexa = true;
               logger.info('Prepare to send to Alexa');
+			  logger.info('Prepare to send to Alexa ***');
               //alexa_res.send();
               resolve();
               PubSub.unsubscribe(userIdTopic);
